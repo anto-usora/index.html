@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="hr">
+
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Fultron Elektro</title>
+
+<link rel="stylesheet" href="style.css">
+
+</head>
+
+
+<body>
+
+<header>
+
+<h1>FULTRON ELEKTRO</h1>
+
+<p>Unosi svjetlost u vaš dom</p>
+
+<nav>
+<a href="#home">Početna</a>
+<a href="#usluge">Usluge</a>
+<a href="#kontakt">Kontakt</a>
+</nav>
+
+</header>
+
+
+<section id="home">
+
+<h2>Elektro rješenja za vaš dom i poslovni prostor</h2>
+
+<p>
+Profesionalne elektro instalacije, rasvjeta i održavanje.
+</p>
+
+</section>
+
+
+
+<section id="usluge">
+
+<h2>Naše usluge</h2>
+
+<div>
+
+<p>⚡️ Elektro instalacije</p>
+
+<p>💡 Rasvjeta</p>
+
+<p>🏠 Smart Home</p>
+
+<p>🔧 Sanacije elektro sistema</p>
+
+</div>
+
+</section>
+
+
+
+<section id="kontakt">
+
+<h2>Kontakt</h2>
+
+<p>
+Email:
+<a href="mailto:info@fultron.ba">
+info@fultron.ba
+</a>
+</p>
+
+<p>
+Telefon: +387 xx xxx xxx
+</p>
+
+</section>
+
+
+
+<footer>
+
+<p>
+© 2026 Fultron Elektro
+</p>
+
+</footer>
+
+
+</body>
+
+</html>
