@@ -1,94 +1,65 @@
 * {
-box-sizing: border-box;
+  box-sizing: border-box;
 }
-
 
 html {
-scroll-behavior: smooth;
+  scroll-behavior: smooth;
 }
-
 
 body {
-
-margin:0;
-font-family: Arial, sans-serif;
-background:#f4f4f4;
-color:#222;
-
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f4f4f4;
+  color: #222;
 }
-
 
 header {
-
-background:#111;
-color:white;
-text-align:center;
-padding:40px 20px;
-
+  background: #111;
+  color: white;
+  text-align: center;
+  padding: 40px 20px;
 }
-
 
 header h1 {
-
-font-size:40px;
-
+  font-size: 40px;
 }
-
 
 nav {
-
-margin-top:30px;
-
+  margin-top: 30px;
 }
-
 
 nav a {
-
-color:white;
-text-decoration:none;
-margin:15px;
-font-size:18px;
-
+  color: white;
+  text-decoration: none;
+  margin: 15px;
+  font-size: 18px;
 }
-
-
 
 section {
-
-min-height:400px;
-padding:50px 20px;
-text-align:center;
-
+  min-height: 400px;
+  padding: 50px 20px;
+  text-align: center;
 }
-
 
 #home {
-
-background:white;
-
+  background-image: url('fultron.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
-
 
 #usluge {
-
-background:#eee;
-
+  background: #eee;
 }
-
 
 #kontakt {
-
-background:white;
-
+  background: white;
 }
 
-
 footer {
-
-background:#111;
-color:white;
-text-align:center;
-padding:20px;
-
+  background: #111;
+  color: white;
+  text-align: center;
+  padding: 20px;
 }
 
