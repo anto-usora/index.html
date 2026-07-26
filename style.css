@@ -91,3 +91,11 @@ text-align:center;
 padding:20px;
 
 }
+
+body {
+    background-image: url('fultron.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+}
