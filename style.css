@@ -1,65 +1,187 @@
 * {
-  box-sizing: border-box;
+    box-sizing: border-box;
 }
 
 html {
-  scroll-behavior: smooth;
+    scroll-behavior: smooth;
 }
 
 body {
-  margin: 0;
-  font-family: Arial, sans-serif;
-  background: #f4f4f4;
-  color: #222;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #f4f4f4;
+    color: #222;
 }
+
+/* HEADER */
 
 header {
-  background: #111;
-  color: white;
-  text-align: center;
-  padding: 40px 20px;
-}
-
-header h1 {
-  font-size: 40px;
+    background: #111;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
 }
 
 nav {
-  margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
 }
 
 nav a {
-  color: white;
-  text-decoration: none;
-  margin: 15px;
-  font-size: 18px;
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    transition: color 0.3s;
 }
+
+nav a:hover {
+    color: #ffd700;
+}
+
+/* SEKCIJE */
 
 section {
-  min-height: 400px;
-  padding: 50px 20px;
-  text-align: center;
+    padding: 60px 20px;
+    text-align: center;
 }
+
+/* NASLOVNA */
 
 #home {
-  background-image: url('fultron.jpg');
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
+    height: 70vh;
+    background-image: url("fultron.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
+
+/* UVOD */
+
+#intro {
+    background: white;
+}
+
+#intro h2 {
+    font-size: 34px;
+}
+
+#intro p {
+    font-size: 18px;
+}
+
+/* O NAMA */
+
+#o-nama {
+    background: #f9f9f9;
+}
+
+#o-nama p {
+    max-width: 800px;
+    margin: 20px auto 35px;
+    line-height: 1.8;
+    font-size: 18px;
+}
+
+.about-image {
+    display: block;
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+    margin: auto;
+    border-radius: 15px;
+    box-shadow: 0 8px 20px rgba(0,0,0,.2);
+}
+
+/* USLUGE */
 
 #usluge {
-  background: #eee;
+    background: #eee;
 }
+
+.services-grid {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 25px;
+    margin-top: 40px;
+}
+
+.service-card {
+    background: white;
+    padding: 25px;
+    width: 220px;
+    border-radius: 15px;
+    box-shadow: 0 4px 12px rgba(0,0,0,.15);
+    transition: transform .3s;
+}
+
+.service-card:hover {
+    transform: translateY(-6px);
+}
+
+.icon {
+    font-size: 45px;
+    display: block;
+    margin-bottom: 15px;
+}
+
+/* KONTAKT */
 
 #kontakt {
-  background: white;
+    background: white;
 }
+
+.contact-btn {
+    display: inline-block;
+    background: #f0b400;
+    color: black;
+    text-decoration: none;
+    padding: 14px 28px;
+    border-radius: 8px;
+    font-weight: bold;
+    transition: .3s;
+}
+
+.contact-btn:hover {
+    background: #d89d00;
+}
+
+/* FOOTER */
 
 footer {
-  background: #111;
-  color: white;
-  text-align: center;
-  padding: 20px;
+    background: #111;
+    color: white;
+    text-align: center;
+    padding: 20px;
 }
 
+/* MOBITEL */
+
+@media (max-width:768px){
+
+    nav{
+        flex-direction:column;
+        gap:15px;
+    }
+
+    #home{
+        height:50vh;
+    }
+
+    #intro h2{
+        font-size:28px;
+    }
+
+    .service-card{
+        width:100%;
+        max-width:320px;
+    }
+
+    .about-image{
+        max-width:95%;
+    }
