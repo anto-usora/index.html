@@ -55,9 +55,10 @@ section {
 #home {
     height: 70vh;
     background-image: url("fultron.jpg");
-    background-size: cover;
+    background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
+    background-color: #111;
 }
 
 /* UVOD */
@@ -90,11 +91,12 @@ section {
 .about-image {
     display: block;
     width: 100%;
-    max-width: 600px;
+    max-width: 800px;
     height: auto;
     margin: auto;
     border-radius: 15px;
     box-shadow: 0 8px 20px rgba(0,0,0,.2);
+    object-fit: contain;
 }
 
 /* USLUGE */
@@ -183,5 +185,6 @@ footer {
     }
 
     .about-image{
-        max-width:95%;
+        max-width:100%;
     }
+}
